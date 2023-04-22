@@ -1,3 +1,3 @@
 # springboot-and-angular
 Learning Springboot and Angular through course in Udemy 
-Instructor Chad Darby
+from instructor Chad Darby
