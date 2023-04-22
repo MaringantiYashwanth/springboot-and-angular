@@ -1,15 +1,13 @@
 package com.example.demo;
 
 
-public class Car {
-    private String brand;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-//    @Required
-    public void setBrand(String brand) {
+@Component
+public class Car {
+    private Brand brand;
+    public Car(Brand brand) {
         this.brand = brand;
     }
-
-//    public Integer getBrand() {
-//       return brand;
-//    }
 }
